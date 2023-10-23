@@ -1,0 +1,56 @@
+/* styles.css*/ 
+
+html {
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    font-weight: bold;
+}
+
+/*HEADER*/
+
+.header-container {
+    background-color: #1f2937;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    flex: 0 1 auto;
+}
+
+.header ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+    gap: 16px;
+}
+
+/*SECTION 1*/
+
+
+
+/* GLOBAL */
+
+a {
+    /* this removes the line under our links */
+    text-decoration: none;
+    color: white;
+  }
+  
